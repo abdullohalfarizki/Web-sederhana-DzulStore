@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.sosmed{
+    padding: 10px 0;
+    background: linear-gradient(320deg, #00FF7F, 	#00FF7F, #32CD32) 
+}
+.sosmed ul li{
+    display: inline-block;
+    color:antiquewhite;
+    margin-right: 10px ;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1{
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+    color: rgb(18, 136, 14);
+    padding: 20px 0;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    padding: 25px 20px;
+    color: azure;
+    background: #32CD32;
+}
+.active{
+    color: black;
+    background: #00FF7F;
+}
+.banner h2{
+    color: antiquewhite;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid antiquewhite;
+}
+.banner{
+    margin-top: 80px;
+    height: 78vh;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(21, 243, 13, 0.4);
+}
+section{
+    padding: 0px 0;
+    
+}
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    color:rgb(18, 136, 14);
+    font-weight: bold;
+}
+.about{
+    padding: 30px 0;
+}
+.about p{
+    text-indent: 50px;
+}
+.services{
+    background-color: #f9f9f9;
+    margin-top: 0px;
+    padding: 30px;
+}
+
+.box{
+    color:#00FF7F;
+    text-align: center;
+}
+.box .col-4{
+    width: 24%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+}
+.box .col-4:hover{
+    width: 24%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    color: #32CD32; 
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px;
+    margin: 0 auto;
+}
+.icon:hover{
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    margin: 0 auto;
+    color: #32CD32; 
+}
+.box .col-4 h4{
+    margin-top: 20px;
+}
+
+footer{
+    padding: 20px 0;
+    background: linear-gradient(320deg,#00FA9A, 	#32CD32,	#00FF7F) ;
+    text-align: center;
+}
+
+.product{
+    padding: 30px;
+    margin-top: 68px;
+    text-align: center;
+    background-color: #d2eed2;
+}
+.boxProduct{
+    width: 20%;
+    height: 310px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #f9f9f9;
+    border-radius: 2%;
+    margin: 15px 10px;
+}
+.boxProduct:hover{
+    width: 20%;
+    height: 310px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #f9f9f9;
+    border-radius: 2%;
+    margin: 15px 10px;
+    border: 1px solid #00FF7F;
+}
+.image{
+    height: 30vh;
+    background-image: url(../img/lenovo.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+.image1{
+    height: 30vh;
+    background-image: url(../img/lenovo2.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+.image2{
+    height: 30vh;
+    background-image: url(../img/asus1.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+.image3{
+    height: 30vh;
+    background-image: url(../img/asus3.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+.image4{
+    height: 30vh;
+    background-image: url(../img/asus4.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+.image5{
+    height: 30vh;
+    background-image: url(../img/pc1.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+.image6{
+    height: 30vh;
+    background-image: url(../img/pc2.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+.col-12{
+}
+.judul{
+    padding: 5px;
+}
+.namaBarang{
+    padding: 10px;
+    text-align: left;
+}
+.harga{
+    padding: 1px 10px;
+    text-align: left;
+
+}
+.hargaAsal{
+    padding: 0 10px 10px;
+    text-align: left;
+    font-size: 14px;
+    text-decoration: line-through;
+}
